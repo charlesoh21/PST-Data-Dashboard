@@ -23,7 +23,7 @@ PST (Pre-screening Test) data analytics dashboard automatically extracts data fr
 - Libraries: Chart.js, jQuery, lxml
 
 ## Moving Data from Excel to Sharepoint
-<img src="images/workflow.PNG"/>
+<img src="workflow.PNG"/>
 
 The general flow of data is as seen above. A Python script converts the entries from Excel worksheets to a .db file. This .db file is then converted to a SharePoint list using a mixture of the SOAP and REST APIs provided by SharePoint.
 
